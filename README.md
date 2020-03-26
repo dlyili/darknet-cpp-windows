@@ -3,8 +3,6 @@
 Windows support for Darknet-cpp. This repository provides visual studio project files for Darknet-cpp. This repository does not require additional libraries like pthread, and provides all requirements integrated. It supports Yolo v3.
 
 - Support for 2015, 2017 Visual Studio versions, with one of below.
-- Needs CUDA 8.0 (and its environment settings correctly defined, with Visual studio integration enabled), and CUDNN, OpenCV3 or
-- Needs CUDA 9.1 (and its environment settings correctly defined, with Visual studio integration enabled), and CUDNN, OpenCV3
 - Needs CUDA 10.1 (and its environment settings correctly defined, with Visual studio integration enabled), and CUDNN, OpenCV3.4
 
 ## Steps to build darknet-cpp-windows:
@@ -20,8 +18,6 @@ https://github.com/prabindh/darknet-cpp-windows
 - Open the below solution file in Visual Studio
 
 darknet-cpp-windows\darknet\darknet.sln (for CUDA10.1 and CUDNN7),
-
-darknet-cpp-windows\darknet_cuda91\darknet_cuda91.sln (for CUDA9.1),
 
 - Change the OpenCV folder path if needed (default expected to be 2 levels above, ..\..\opencv3\build\x64\vc15\lib)
 
