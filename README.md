@@ -13,7 +13,7 @@ https://github.com/prabindh/darknet
 
 - At the same level as the darknet folder, clone or download the darknet-cpp-windows sources
 
-https://github.com/prabindh/darknet-cpp-windows
+https://github.com/dlyili/darknet-cpp-windows/blob/master/README.md
 
 - Open the below solution file in Visual Studio
 
