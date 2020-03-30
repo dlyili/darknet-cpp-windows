@@ -134,3 +134,23 @@ EXPORTS
 	rgbgr_image
 	make_random_image
 	mse_array
+	cuda_set_device
+	cuda_pull_array
+	train_networks
+	fill_gpu
+	scal_gpu
+	copy_gpu
+	cuda_make_array
+	forward_network_gpu
+	backward_network_gpu
+	update_network_gpu
+	harmless_update_network_gpu
+	get_next_batch
+	copy_data
+	concat_data
+	cuda_free
+	get_network_output_layer
+	cuda_mag_array
+	cuda_push_array
+	sync_nets
+	axpy_gpu

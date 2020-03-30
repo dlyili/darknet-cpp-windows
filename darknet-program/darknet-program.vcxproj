@@ -129,7 +129,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>OPENCV;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions);PTHREAD_WINDOWS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>OPENCV;GPU;CUDNN;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions);PTHREAD_WINDOWS</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>./;$(CudaToolkitDir)/include;../../darknet/include/;../../darknet/src/;%OPENCV_DIR%/build/include;../darknet/</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
@@ -166,7 +166,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>OPENCV;WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions);PTHREAD_WINDOWS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>OPENCV;GPU;CUDNN;WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions);PTHREAD_WINDOWS</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>./;$(CudaToolkitDir)/include;./common/inc;../../darknet/src/;../../darknet/include/;../darknet/;%OPENCV_DIR%/build/include</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
